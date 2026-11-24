@@ -1,32 +1,29 @@
 # Selective Forgetting Certificates
 
-Restricted residual-exchange protocols that exclude impossible multi-branch viability patterns, together with a sharp 5V/12 affine-dimension bound on linear four-matching systems.
+Exact recognition of maximum affine flats in linear four-matching systems, and logarithmic search under a near-extremal promise.
 
-The **Residual Exclusion Problem** (return one false nonempty pattern on every colorable input of the seven-source compiler) remains open. A deterministic polynomial-time solution would imply P = NP. No such algorithm is exhibited.
+## Main results
+
+1. **Exact recognition of the 5V/12 bound**  
+   Deterministic polynomial-time algorithm that decides exact attainment, constructs an extremal flat when one exists, and counts the distinct extremal flats. Equality is literal. Verified on the 300-point extremizer (one flat of dimension 125) and the 48-point cube (three flats of dimension 20).
+
+2. **Logarithmic search under a near-extremal promise**  
+   If every satisfiable input is promised a flat within O(log V) of the universal bound 5V/12, a deterministic polynomial-time algorithm recovers a valid coloring by extracting small autarkies and searching a residual of size O(k). Under ETH the guarantee cannot extend to every efficiently testable super-logarithmic allowance.
+
+3. **Residual-certificate protocols**  
+   Constant-round residual-name exchange excludes the three-way pattern “B and C but not A” on the explicit overlapping family and scales past 34k vertices. Independent residuals admit zero exclusions.
+
+## Open problem
+
+The Residual Exclusion Problem (one false nonempty pattern on every colorable seven-source compiler input) remains open. A polynomial-time solution would imply P = NP.
 
 ## Contents
 
-- `paper/` — working notes (Three Actors and One False Pattern; maximum-complexity push)
-- `code/` — residual protocol, generators, and verification
-- `results/` — scaling runs (including 34 745-vertex confirmation) and barriers
-
-## Key results
-
-1. **Three-way residual-certificate protocol**  
-   On the family A = F ∧ G, B = F ∧ H, C = G ∧ I, constant-round exchange of residual names excludes the pattern “B and C viable and A impossible.” The same protocol abstains on matched controls where the pattern is realized. Scales past 34k vertices.
-
-2. **Sharp 5V/12 bound**  
-   On every linear system of four perfect matchings on V points, no affine flat of satisfying colorings has dimension larger than 5V/12. Connected examples attain the bound. Approaching the bound within √V is NP-complete on connected inputs.
-
-3. **Barriers**  
-   - Independent residual barrier: residual-name exchange admits zero exclusions when components are private.  
-   - Four-branch quantitative barrier: three residual certificates are insufficient for certain four-way dependencies.  
-   - Message-size lower bound for pure forced-set exchange.
-
-## Reproduction
-
-See `code/verify.py` and the notes in `paper/`.
+- `paper/SELECTIVE_FORGETTING_CERTIFICATES.md` — full working paper
+- `paper/Safe_Forgetting_Exact_and_Near_Extremizers.md` — detailed recognition and search note
+- `results/` — scaling runs and recognition summaries
+- Companion archive (to be attached) contains the full verification harnesses and proofs
 
 ## Status
 
-Working paper. Priority for the exact statements is open for independent review. P versus NP remains open.
+Working paper. Independent review and priority checking remain open. P versus NP remains open.
