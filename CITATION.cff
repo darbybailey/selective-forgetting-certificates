@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Selective Forgetting Certificates: Exact Recognition of Maximum Affine Flats in Linear Four-Matching Systems"
+message: "Working paper. The Residual Exclusion Problem remains open."
+authors:
+  - family-names: McDonough
+    given-names: Darby Bailey
+    orcid: "https://orcid.org/0000-0003-4072-6191"
+    affiliation: "Digital Sidewalk Lab"
+date-released: 2026-11-23
+url: "https://github.com/darbybailey/selective-forgetting-certificates"
+license: MIT
