@@ -22,7 +22,26 @@ The Residual Exclusion Problem (one false nonempty pattern on every colorable se
 - `paper/SELECTIVE_FORGETTING_CERTIFICATES.md` — full working paper
 - `paper/Safe_Forgetting_Exact_and_Near_Extremizers.md` — detailed recognition and search note
 - `results/` — scaling runs and recognition summaries
-- Companion archive (to be attached) contains the full verification harnesses and proofs
+- [Verification package](code/README.md) — Python implementations, proofs, recorded results, and both prior replay archives
+
+## Reproduce the results
+
+From a fresh clone, use Python 3.10 or later. The verifier uses only the Python standard library and runs offline.
+
+```sh
+git clone https://github.com/darbybailey/selective-forgetting-certificates.git
+cd selective-forgetting-certificates
+python3 code/verify.py
+```
+
+The command reruns 12 suites and compares their output with the recorded JSON. Run `python3 code/verify.py --prior` to also replay the 18 three-actor suites and six weighted-coloring suites.
+
+| Recognition case | Points | Extremal dimension | Distinct extremal flats |
+|---|---:|---:|---:|
+| Connected extremizer (`connected_25`) | 300 | 125 | 1 |
+| Cube (`cube`) | 48 | 20 | 3 |
+
+To inspect the regenerated counts for these cases, run `python3 code/recognition/run.py` and look for `sharp_flats_by_weighted_count` in the two named records. Each attains dimension exactly `5V/12`. [Recorded results](code/recognition/RESULTS.json) · [Recognition proof](code/overlap/RECOGNITION.md)
 
 ## Status
 

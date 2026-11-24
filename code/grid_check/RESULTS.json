@@ -1,0 +1,212 @@
+{
+  "crossed_cubes": [
+    {
+      "copies": 1,
+      "old_grids": 4,
+      "pruned_histogram": [
+        [
+          3,
+          64
+        ]
+      ],
+      "raw_options_histogram": [
+        [
+          3,
+          64
+        ]
+      ],
+      "rows": 64,
+      "seed": 441,
+      "simultaneous_rounds": 0
+    },
+    {
+      "copies": 1,
+      "old_grids": 4,
+      "pruned_histogram": [
+        [
+          3,
+          64
+        ]
+      ],
+      "raw_options_histogram": [
+        [
+          3,
+          64
+        ]
+      ],
+      "rows": 64,
+      "seed": 967,
+      "simultaneous_rounds": 0
+    },
+    {
+      "copies": 2,
+      "old_grids": 8,
+      "pruned_histogram": [
+        [
+          1,
+          128
+        ]
+      ],
+      "raw_options_histogram": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          48
+        ],
+        [
+          3,
+          72
+        ]
+      ],
+      "rows": 128,
+      "seed": 441,
+      "simultaneous_rounds": 1
+    },
+    {
+      "copies": 2,
+      "old_grids": 8,
+      "pruned_histogram": [
+        [
+          1,
+          128
+        ]
+      ],
+      "raw_options_histogram": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          48
+        ],
+        [
+          3,
+          72
+        ]
+      ],
+      "rows": 128,
+      "seed": 967,
+      "simultaneous_rounds": 1
+    },
+    {
+      "copies": 4,
+      "old_grids": 16,
+      "pruned_histogram": [
+        [
+          1,
+          256
+        ]
+      ],
+      "raw_options_histogram": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          104
+        ],
+        [
+          3,
+          132
+        ]
+      ],
+      "rows": 256,
+      "seed": 441,
+      "simultaneous_rounds": 1
+    },
+    {
+      "copies": 4,
+      "old_grids": 16,
+      "pruned_histogram": [
+        [
+          1,
+          256
+        ]
+      ],
+      "raw_options_histogram": [
+        [
+          1,
+          28
+        ],
+        [
+          2,
+          104
+        ],
+        [
+          3,
+          124
+        ]
+      ],
+      "rows": 256,
+      "seed": 967,
+      "simultaneous_rounds": 1
+    },
+    {
+      "copies": 10,
+      "old_grids": 40,
+      "pruned_histogram": [
+        [
+          1,
+          640
+        ]
+      ],
+      "raw_options_histogram": [
+        [
+          1,
+          92
+        ],
+        [
+          2,
+          296
+        ],
+        [
+          3,
+          252
+        ]
+      ],
+      "rows": 640,
+      "seed": 441,
+      "simultaneous_rounds": 1
+    },
+    {
+      "copies": 10,
+      "old_grids": 40,
+      "pruned_histogram": [
+        [
+          1,
+          640
+        ]
+      ],
+      "raw_options_histogram": [
+        [
+          1,
+          84
+        ],
+        [
+          2,
+          280
+        ],
+        [
+          3,
+          276
+        ]
+      ],
+      "rows": 640,
+      "seed": 967,
+      "simultaneous_rounds": 1
+    }
+  ],
+  "quotient_cube": {
+    "candidate_footprints": 6,
+    "ordered_states_checked": 192,
+    "points": 24,
+    "row_frequency": 3,
+    "rows": 32,
+    "two_move_relation_checks": 1728
+  }
+}

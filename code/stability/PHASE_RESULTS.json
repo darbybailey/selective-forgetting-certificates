@@ -1,0 +1,43 @@
+{
+  "saturated": [
+    {
+      "points": 804,
+      "rows": 1072,
+      "sheets": 67,
+      "certified_dimension": 335,
+      "local_autarky_support_minimum": 8,
+      "partial_supports_visited": 1524
+    },
+    {
+      "points": 1905,
+      "rows": 2540,
+      "sheets": 127,
+      "certified_dimension": 762,
+      "local_autarky_support_minimum": 10,
+      "partial_supports_visited": 7665
+    },
+    {
+      "points": 2286,
+      "rows": 3048,
+      "sheets": 127,
+      "certified_dimension": 889,
+      "local_autarky_support_minimum": 12,
+      "partial_supports_visited": 36846
+    },
+    {
+      "points": 2667,
+      "rows": 3556,
+      "sheets": 127,
+      "certified_dimension": 1016,
+      "local_autarky_support_minimum": 14,
+      "partial_supports_visited": 172011
+    }
+  ],
+  "unsaturated": {
+    "points": 3015,
+    "rows": 4020,
+    "certified_dimension": 1139,
+    "autarky_support_lower_bound": 15,
+    "partial_supports_visited": 737235
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "independent_free_set_oracle": {
+    "relabeled_positive_controls": 10,
+    "sampled_linear_12_point_inputs": {
+      "0": 57,
+      "3": 3
+    },
+    "seed": 1055
+  },
+  "nonextendible_tile": {
+    "dimension": 20,
+    "exact_covers": 1,
+    "extremal_flats": 1,
+    "footprints": 5,
+    "frequencies": {
+      "1": 48,
+      "2": 16
+    },
+    "nonextendible_footprints": [
+      1
+    ],
+    "pruned_footprints": 1,
+    "raw_frequency_range": [
+      1,
+      2
+    ],
+    "reason": "accepted",
+    "relabeled_checks": 8,
+    "rows": 64
+  },
+  "three_planes": {
+    "dimension": 20,
+    "exact_covers": 3,
+    "extremal_flats": 3,
+    "footprints": 12,
+    "frequencies": {
+      "3": 64
+    },
+    "nonextendible_footprints": [],
+    "pruned_footprints": 0,
+    "raw_frequency_range": [
+      3,
+      3
+    ],
+    "reason": "accepted",
+    "relabeled_checks": 8,
+    "rows": 64
+  }
+}

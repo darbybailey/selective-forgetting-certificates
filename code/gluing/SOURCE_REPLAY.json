@@ -1,0 +1,195 @@
+{
+  "all_match": true,
+  "checks": 18,
+  "experiments": [
+    {
+      "arguments": [],
+      "reference": "next_flat/RESULTS.json",
+      "reference_sha256": "bf4a677b12cdfad2235cae5a39e1dad1db93672a4a85bf33a815979f5ad4150b",
+      "script": "next_flat/flat.py",
+      "script_sha256": "1609a91b29941be048fd162998ce8ffd7d7b8584ae3316d9468073bca1b62eb9"
+    },
+    {
+      "arguments": [],
+      "reference": "next_affine/results.json",
+      "reference_sha256": "305a1b11aece154ff6621a505fceb2bdf92968eda38330951b0330f58a5962bf",
+      "script": "next_affine/affine.py",
+      "script_sha256": "ed739663402d4358387959d770f1b438e8834371ce5be50a28913213bb43d0d5"
+    },
+    {
+      "arguments": [],
+      "reference": "next_priority/results.json",
+      "reference_sha256": "50c5b6cee3ea9901481c5bd8f9dc3d648f48c34e6866cc9486733c1fcb30c04b",
+      "script": "next_priority/width.py",
+      "script_sha256": "c2766f24cd2be59cdb543a016a065ca74667ee28775181307b86b4840152b504"
+    },
+    {
+      "arguments": [],
+      "reference": "next_weak/RESULTS.json",
+      "reference_sha256": "78624ab8e3fe5ffcef7f0d87904f93014630205c5b36840472278419e9731433",
+      "script": "next_weak/modal_exclusion.py",
+      "script_sha256": "c918429a08a7e13381acc5134b9886cf107ec4254e831f1142afe50ecd71d002"
+    },
+    {
+      "arguments": [],
+      "reference": "next_ternary/results.json",
+      "reference_sha256": "2206b2e403a8c2a1cc6ab04d9e602085ecb99dd4b77ee02ea315e5f42844944f",
+      "script": "next_ternary/ternary.py",
+      "script_sha256": "ce904329e2253dd062cc2068445ad06e283e56a061c0e1f9cbdb410a3cf58aea"
+    },
+    {
+      "arguments": [],
+      "reference": "next_ternary/closure_results.json",
+      "reference_sha256": "1cd79ef651b050841e2b4cf091021786441aa59950b9432010b4dbecc38305e6",
+      "script": "next_ternary/closure.py",
+      "script_sha256": "2e84708ffb02fcd5c73efbab948084e5841fe77a26003fa86d95548b60f1eb6a"
+    },
+    {
+      "arguments": [],
+      "reference": "next_ternary/connected_results.json",
+      "reference_sha256": "88025a801615011e8227dac68fa41ce85667fefc89ae72168bfd8b571bd5ab55",
+      "script": "next_ternary/connected.py",
+      "script_sha256": "887d18a4de4e0ceddfc658567010280c910c3d95b993bf3ef28e5c6849d0ba20"
+    },
+    {
+      "arguments": [],
+      "reference": "next_boundary/two_inputs_results.json",
+      "reference_sha256": "8df7a065bade770a64178b0c12ff5dbb7d20963f0771a55d1550075954ab8b61",
+      "script": "next_boundary/two_inputs.py",
+      "script_sha256": "d3665e5354a452a30538eba1c8d7e69f04addd7f090c4349a25a43d4d2afd136"
+    },
+    {
+      "arguments": [],
+      "reference": "next_boundary/results.json",
+      "reference_sha256": "cfac905d48c58db3b442bedc021c1e4cc76930870618c77fcda52c4b3ce84a96",
+      "script": "next_boundary/verify_boundary.py",
+      "script_sha256": "e6f6f4e25028d63b887adda0dfae80718a3717e3a264fd2ca8bbbd79531f0695"
+    },
+    {
+      "arguments": [],
+      "reference": "next_nofold/RESULTS.json",
+      "reference_sha256": "83069ab4236b1b4f199dba69094298c09b29408fa11c10f99202b67b4458bbd2",
+      "script": "next_nofold/certificates.py",
+      "script_sha256": "7492d0c540f2758e98c359212aed74bf6a84c3327b180b611df6f1a9abea9dd4"
+    },
+    {
+      "arguments": [],
+      "reference": "next_nofold/MATROID.json",
+      "reference_sha256": "8d0902558d863387402df753653dc1837d35d2a5c15bbc3427ab9f76bf9fa8ee",
+      "script": "next_nofold/matroid.py",
+      "script_sha256": "6472e4556f6bc9ecc07f64a3ba10f0b204146321b1f17a29e71ac6f54e5eb632"
+    },
+    {
+      "arguments": [],
+      "reference": "next_nofold/NECKLACE.json",
+      "reference_sha256": "284c91765e5b7e504a3331516d8d92b699a3dc39104ce41af8335d9534f85194",
+      "script": "next_nofold/necklace.py",
+      "script_sha256": "fa83895c0ce91d4962a6600a0554ba4f42da6e8a18d64efb32f08f824f663bc0"
+    },
+    {
+      "arguments": [],
+      "reference": "next_blind/ring_results.json",
+      "reference_sha256": "f76625e211119c9605e4757e4051bdaacbf826be2eaea4c981b821262f60bd6a",
+      "script": "next_blind/rings.py",
+      "script_sha256": "af4d7b61742f5703791611e52d4ab1859e1797476599167385a520c53ab68d84"
+    },
+    {
+      "arguments": [],
+      "reference": "next_blind/spectral_results.json",
+      "reference_sha256": "0e173b470c14e995b34afa4f48c17940be6b3b5ee6affac0e7a4b19e77f4edee",
+      "script": "next_blind/spectrum.py",
+      "script_sha256": "377c1ec15efd8b796daa78c3e67ed790e4cacec08a6fdc9d1707be5a0c18fb91"
+    },
+    {
+      "arguments": [],
+      "reference": "next_boundary/three_way_results.json",
+      "reference_sha256": "9306831b592653a74473ffd4970c4bd2fbf4ce9214051a87f220aa3376c870f1",
+      "script": "next_boundary/three_way.py",
+      "script_sha256": "4cfb25ad25f0729ecb4ca53f7bd7ee3686609549925990f724c496502b5fd43a"
+    },
+    {
+      "arguments": [
+        "--large"
+      ],
+      "reference": "next_boundary/large_results.json",
+      "reference_sha256": "b9953a718760549d7148f2c23efe6ba149a627eb1f6f81a5d3107dac2b581efb",
+      "script": "next_boundary/verify_boundary.py",
+      "script_sha256": "e6f6f4e25028d63b887adda0dfae80718a3717e3a264fd2ca8bbbd79531f0695"
+    },
+    {
+      "arguments": [],
+      "reference": "next_nofold/GRAPH_RESULTS.json",
+      "reference_sha256": "51a11c5d0b8296e8015f79edf82c6db4af0d86e8e70d59621164f7032b84df9e",
+      "script": "next_nofold/graphs.py",
+      "script_sha256": "8170066d5064e9c762caff3cc08fa2cfbf749fd3a5de1c32d52904604f1c91bc"
+    },
+    {
+      "arguments": [],
+      "reference": "next_blind/raw_results.json",
+      "reference_sha256": "78650b791435b6fdd3c9ec43dd74bb5c1ba357ea03b280e27f895fa3db6e3b1c",
+      "script": "next_blind/raw.py",
+      "script_sha256": "da07aff5e1a9fb68222a3a265b0fd27310acde1a8ba281be658efbb7aada1a98"
+    }
+  ],
+  "full": true,
+  "input_sha256": {
+    "experiment_regular/near_obstruction.py": "51d3f74efb6512a51a27029607a7ffe3e9861da4b8fab115b7e3edacadaa5730",
+    "frontier2_energy/energy.py": "5eba3d8d033800acc6e583ec5f13b7fb41f7d320e6d131b48ddad6a8e828f822",
+    "frontier2_energy/read_without_start.py": "638f60307a275124ca1c4ca1431d9877d8f4b312309fd08c2ada29ecaa0c3d6f",
+    "frontier2_near/one_defect_hard.py": "d25f20cdffbacd3d710d6839d46314d2302753d0a0e46c847c6a0263292599eb",
+    "frontier2_quotient/kernel.py": "60f1b2be2b2122e14b5f6ae4839d603518c2a3919180e5f8a2d19e83a98d096d",
+    "infer_new/actor/audit.py": "11f208bb6a839b53156daea43a1460716ce63b439bb9f986986a4feee3407c53",
+    "infer_new/actor/elimination.py": "b4531e95bab6e072f9525d928f58d786ab43b931976bc0d1cfd24fdc9a0852dd",
+    "infer_new/baseline/compiler/named/boundary.py": "28326119233766d48a1753b671ac11a669666ca038be8cd08d74c973e199c80b",
+    "infer_new/baseline/compiler/three_star/three_star.py": "669c57c6e3b31e19765fd50e3cd294e4896e0ab78570e9be6fc378ff508f8fb7",
+    "infer_new/baseline/pruning/frontier.py": "19fdfd6777e0fdd84859eb413f9ce4d44cf9ad8dab485518e99b9b9ba3f5931e",
+    "infer_new/baseline/pruning/ruled_out.py": "e5542dddb23b7331e6cccca77cd37a168bac566c004f0c7ce83b21c84702dfda",
+    "infer_new/decode/fuse.py": "af9b2444fe66d01ce5a64c0b8b760d11ed3d40659173bcaf1c41abfb11717651",
+    "infer_new/quotient/quotient.py": "e5c2e08aa227411b5b4d329d80904b18f065cc72def5aed58525bd935485da34",
+    "next_affine/PROOF.md": "ad5610d50caf96ab3e0cd4bc2baa8f36bc55f5183b5186fa97c8dc286bd60f39",
+    "next_affine/affine.py": "ed739663402d4358387959d770f1b438e8834371ce5be50a28913213bb43d0d5",
+    "next_affine/results.json": "305a1b11aece154ff6621a505fceb2bdf92968eda38330951b0330f58a5962bf",
+    "next_blind/PROOF.md": "137580db8f86560e7143cd49a8e6e0f88f40e70a144bedc80539ac6ad6eda340",
+    "next_blind/raw.py": "da07aff5e1a9fb68222a3a265b0fd27310acde1a8ba281be658efbb7aada1a98",
+    "next_blind/raw_results.json": "78650b791435b6fdd3c9ec43dd74bb5c1ba357ea03b280e27f895fa3db6e3b1c",
+    "next_blind/ring_results.json": "f76625e211119c9605e4757e4051bdaacbf826be2eaea4c981b821262f60bd6a",
+    "next_blind/rings.py": "af4d7b61742f5703791611e52d4ab1859e1797476599167385a520c53ab68d84",
+    "next_blind/spectral_results.json": "0e173b470c14e995b34afa4f48c17940be6b3b5ee6affac0e7a4b19e77f4edee",
+    "next_blind/spectrum.py": "377c1ec15efd8b796daa78c3e67ed790e4cacec08a6fdc9d1707be5a0c18fb91",
+    "next_boundary/PROOF.md": "373e2597b6e4da1c4ac09608638460a63150340b0219b8b615d8b8b6520ac44f",
+    "next_boundary/large_results.json": "b9953a718760549d7148f2c23efe6ba149a627eb1f6f81a5d3107dac2b581efb",
+    "next_boundary/results.json": "cfac905d48c58db3b442bedc021c1e4cc76930870618c77fcda52c4b3ce84a96",
+    "next_boundary/terminal.py": "8e805a8e1f3e46da8f9df806056daea3e754a970afeb7a52aa370680396349e3",
+    "next_boundary/three_way.py": "4cfb25ad25f0729ecb4ca53f7bd7ee3686609549925990f724c496502b5fd43a",
+    "next_boundary/three_way_results.json": "9306831b592653a74473ffd4970c4bd2fbf4ce9214051a87f220aa3376c870f1",
+    "next_boundary/two_inputs.py": "d3665e5354a452a30538eba1c8d7e69f04addd7f090c4349a25a43d4d2afd136",
+    "next_boundary/two_inputs_results.json": "8df7a065bade770a64178b0c12ff5dbb7d20963f0771a55d1550075954ab8b61",
+    "next_boundary/verify_boundary.py": "e6f6f4e25028d63b887adda0dfae80718a3717e3a264fd2ca8bbbd79531f0695",
+    "next_flat/PROOF.md": "0b348ad0695a3b8eb0ad60c2007dd4fbeade8e62e89f3a5ad4272e58142e3da8",
+    "next_flat/RESULTS.json": "bf4a677b12cdfad2235cae5a39e1dad1db93672a4a85bf33a815979f5ad4150b",
+    "next_flat/flat.py": "1609a91b29941be048fd162998ce8ffd7d7b8584ae3316d9468073bca1b62eb9",
+    "next_nofold/GRAPH_RESULTS.json": "51a11c5d0b8296e8015f79edf82c6db4af0d86e8e70d59621164f7032b84df9e",
+    "next_nofold/MATROID.json": "8d0902558d863387402df753653dc1837d35d2a5c15bbc3427ab9f76bf9fa8ee",
+    "next_nofold/NECKLACE.json": "284c91765e5b7e504a3331516d8d92b699a3dc39104ce41af8335d9534f85194",
+    "next_nofold/PROOF.md": "5404537edb6c9d9c6157f47188b6b5fdc554fa96b91734fd6e0e300860576ca6",
+    "next_nofold/RESULTS.json": "83069ab4236b1b4f199dba69094298c09b29408fa11c10f99202b67b4458bbd2",
+    "next_nofold/certificates.py": "7492d0c540f2758e98c359212aed74bf6a84c3327b180b611df6f1a9abea9dd4",
+    "next_nofold/graphs.py": "8170066d5064e9c762caff3cc08fa2cfbf749fd3a5de1c32d52904604f1c91bc",
+    "next_nofold/matroid.py": "6472e4556f6bc9ecc07f64a3ba10f0b204146321b1f17a29e71ac6f54e5eb632",
+    "next_nofold/necklace.py": "fa83895c0ce91d4962a6600a0554ba4f42da6e8a18d64efb32f08f824f663bc0",
+    "next_nofold/whitney.py": "09456f36aae0e164977c6f622001161d25490eee1df28ad9cbbe6d563ad243d0",
+    "next_priority/PROOF.md": "9b0979a6f1135d82891392cdcfb87be238f127cd6c7cb718ea7f279d707006bd",
+    "next_priority/results.json": "50c5b6cee3ea9901481c5bd8f9dc3d648f48c34e6866cc9486733c1fcb30c04b",
+    "next_priority/width.py": "c2766f24cd2be59cdb543a016a065ca74667ee28775181307b86b4840152b504",
+    "next_ternary/PROOF.md": "9a2287b45286e4519e728bfa705b87f4060e229badaa9db351d15ddeba52459c",
+    "next_ternary/closure.py": "2e84708ffb02fcd5c73efbab948084e5841fe77a26003fa86d95548b60f1eb6a",
+    "next_ternary/closure_results.json": "1cd79ef651b050841e2b4cf091021786441aa59950b9432010b4dbecc38305e6",
+    "next_ternary/connected.py": "887d18a4de4e0ceddfc658567010280c910c3d95b993bf3ef28e5c6849d0ba20",
+    "next_ternary/connected_results.json": "88025a801615011e8227dac68fa41ce85667fefc89ae72168bfd8b571bd5ab55",
+    "next_ternary/results.json": "2206b2e403a8c2a1cc6ab04d9e602085ecb99dd4b77ee02ea315e5f42844944f",
+    "next_ternary/ternary.py": "ce904329e2253dd062cc2068445ad06e283e56a061c0e1f9cbdb410a3cf58aea",
+    "next_weak/PROOF.md": "a11fd2940eb7f5d141d737148ecd52554b8544eaa22f0973f54e3bc5782e52cd",
+    "next_weak/RESULTS.json": "78624ab8e3fe5ffcef7f0d87904f93014630205c5b36840472278419e9731433",
+    "next_weak/modal_exclusion.py": "c918429a08a7e13381acc5134b9886cf107ec4254e831f1142afe50ecd71d002"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "component_profiles": {
+    "size_edge_cases": 29885,
+    "open_threshold_equality_candidates": [
+      [
+        4,
+        4,
+        15
+      ]
+    ]
+  },
+  "no_K44_control": {
+    "points": 15,
+    "certified_dimension": 6,
+    "max_common_neighbors_of_any_four_points": 3
+  },
+  "nonempty_core_masks_by_required_neighbors": {
+    "2": 1,
+    "4": 10,
+    "6": 28,
+    "8": 127,
+    "10": 65,
+    "12": 20,
+    "14": 2,
+    "16": 2
+  },
+  "lifted_obstruction": {
+    "sheets": 67,
+    "base_atoms": 17,
+    "base_connectors": 60,
+    "small_cycle_voltage_constraints": 892,
+    "quotient_girth": 5,
+    "points": 3015,
+    "rows": 4020,
+    "certified_flat_dimension": 1139,
+    "nonempty_stopping_sets_of_size_at_most_four": 0,
+    "partial_sets_visited": 374,
+    "raw_reader": {
+      "patterns": 268,
+      "certified": true,
+      "reconstructed_dimension": 1139,
+      "verified_rows": 4020
+    }
+  }
+}

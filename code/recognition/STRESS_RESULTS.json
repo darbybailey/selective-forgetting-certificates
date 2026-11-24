@@ -1,0 +1,35 @@
+{
+  "inputs": 197,
+  "families": {
+    "cubical_gauge": 32,
+    "cubical_plant": 32,
+    "cubical_rare": 32,
+    "cubical_general": 32,
+    "all_cubic_3": 1,
+    "all_cubic_4": 12,
+    "random_cubic_lifts": 50,
+    "crossed_six_vertex_islands": 1,
+    "connected_extremal_fixtures": 4,
+    "quotient_cube": 1
+  },
+  "booleans": {
+    "True": 92,
+    "False": 105
+  },
+  "numbers_of_distinct_sharp_flats_histogram": {
+    "9": 16,
+    "1": 44,
+    "0": 105,
+    "27": 17,
+    "3": 14,
+    "2": 1
+  },
+  "connected_components_by_decision_scenario": {
+    "tiny": 96,
+    "binary": 46,
+    "initial_zero": 89,
+    "above_three": 4,
+    "pruned_zero": 12
+  },
+  "maximum_full_three_component_rows_on_finite_tests": 64
+}

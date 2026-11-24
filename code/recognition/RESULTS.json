@@ -1,0 +1,129 @@
+{
+  "connected_1": {
+    "points": 12,
+    "supports": 1,
+    "row_incidence_histogram": {
+      "1": 16
+    },
+    "sharp_flat": true,
+    "distinct_footprint_covers": 1,
+    "sharp_flats_by_weighted_count": 3,
+    "contains_induced_claw": false,
+    "contains_induced_four_leaf_star": false
+  },
+  "connected_2": {
+    "points": 24,
+    "supports": 2,
+    "row_incidence_histogram": {
+      "1": 32
+    },
+    "sharp_flat": true,
+    "distinct_footprint_covers": 1,
+    "sharp_flats_by_weighted_count": 1,
+    "contains_induced_claw": false,
+    "contains_induced_four_leaf_star": false
+  },
+  "connected_5": {
+    "points": 60,
+    "supports": 5,
+    "row_incidence_histogram": {
+      "1": 80
+    },
+    "sharp_flat": true,
+    "distinct_footprint_covers": 1,
+    "sharp_flats_by_weighted_count": 1,
+    "contains_induced_claw": false,
+    "contains_induced_four_leaf_star": false
+  },
+  "connected_25": {
+    "points": 300,
+    "supports": 25,
+    "row_incidence_histogram": {
+      "1": 400
+    },
+    "sharp_flat": true,
+    "distinct_footprint_covers": 1,
+    "sharp_flats_by_weighted_count": 1,
+    "contains_induced_claw": false,
+    "contains_induced_four_leaf_star": false
+  },
+  "cube": {
+    "points": 48,
+    "supports": 12,
+    "row_incidence_histogram": {
+      "3": 64
+    },
+    "sharp_flat": true,
+    "distinct_footprint_covers": 3,
+    "sharp_flats_by_weighted_count": 3,
+    "contains_induced_claw": true,
+    "contains_induced_four_leaf_star": true
+  },
+  "quotient_cube": {
+    "points": 24,
+    "supports": 6,
+    "row_incidence_histogram": {
+      "3": 32
+    },
+    "sharp_flat": true,
+    "distinct_footprint_covers": 3,
+    "sharp_flats_by_weighted_count": 3,
+    "contains_induced_claw": false,
+    "contains_induced_four_leaf_star": false
+  },
+  "cube_after_switches": {
+    "points": 48,
+    "supports": 4,
+    "row_incidence_histogram": {
+      "1": 64
+    },
+    "sharp_flat": true,
+    "distinct_footprint_covers": 1,
+    "sharp_flats_by_weighted_count": 1,
+    "contains_induced_claw": false,
+    "contains_induced_four_leaf_star": false
+  },
+  "shift_control": {
+    "points": 36,
+    "supports": 0,
+    "row_incidence_histogram": {
+      "0": 48
+    },
+    "sharp_flat": false,
+    "distinct_footprint_covers": 0,
+    "sharp_flats_by_weighted_count": 0,
+    "contains_induced_claw": false,
+    "contains_induced_four_leaf_star": false
+  },
+  "square_lift_positive": {
+    "base_vertices": 8,
+    "base_squares": 6,
+    "base_square_factor": true,
+    "points": 24,
+    "supports": 6,
+    "row_incidence_histogram": {
+      "3": 32
+    },
+    "sharp_flat": true,
+    "distinct_footprint_covers": 3,
+    "sharp_flats_by_weighted_count": 3,
+    "contains_induced_claw": false,
+    "contains_induced_four_leaf_star": false
+  },
+  "square_lift_no_cover": {
+    "base_vertices": 12,
+    "base_squares": 10,
+    "base_square_factor": false,
+    "points": 36,
+    "supports": 10,
+    "row_incidence_histogram": {
+      "2": 16,
+      "4": 32
+    },
+    "sharp_flat": false,
+    "distinct_footprint_covers": 0,
+    "sharp_flats_by_weighted_count": 0,
+    "contains_induced_claw": false,
+    "contains_induced_four_leaf_star": false
+  }
+}

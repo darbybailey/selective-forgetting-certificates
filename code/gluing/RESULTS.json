@@ -1,0 +1,64 @@
+{
+  "hard_one_bit_formulas": 16,
+  "prior_claims": {
+    "all_seven_source_live_sets": 128,
+    "contract_valid_outputs_checked": 769,
+    "three_branch_allowed_masks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ]
+  },
+  "quotient": {
+    "distinct_support_pair_cases": 159340,
+    "subspace_pairs": 285
+  },
+  "wide_interfaces": [
+    {
+      "closed": false,
+      "dim_u": 3,
+      "dim_v": 4,
+      "k": 6,
+      "unresolved": 0
+    },
+    {
+      "closed": true,
+      "dim_u": 3,
+      "dim_v": 3,
+      "k": 6,
+      "unresolved": 1
+    },
+    {
+      "closed": false,
+      "dim_u": 6,
+      "dim_v": 7,
+      "k": 12,
+      "unresolved": 0
+    },
+    {
+      "closed": true,
+      "dim_u": 6,
+      "dim_v": 6,
+      "k": 12,
+      "unresolved": 1
+    },
+    {
+      "closed": false,
+      "dim_u": 32,
+      "dim_v": 33,
+      "k": 64,
+      "unresolved": 0
+    },
+    {
+      "closed": true,
+      "dim_u": 32,
+      "dim_v": 32,
+      "k": 64,
+      "unresolved": 1
+    }
+  ]
+}

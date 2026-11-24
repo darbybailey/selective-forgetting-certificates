@@ -1,0 +1,58 @@
+{
+  "physical_local_assignments_exhausted": 512,
+  "local_private_polynomial_per_phase": [
+    [
+      1,
+      4,
+      1
+    ],
+    [
+      1,
+      4,
+      1
+    ]
+  ],
+  "cycle_and_complement_support": [
+    {
+      "m": 2,
+      "masks": 4,
+      "accepted_per_reference_phase": 1,
+      "hard_degree": 2,
+      "opposite_degree": 0
+    },
+    {
+      "m": 3,
+      "masks": 64,
+      "accepted_per_reference_phase": 2,
+      "hard_degree": 3,
+      "opposite_degree": 3
+    },
+    {
+      "m": 4,
+      "masks": 4096,
+      "accepted_per_reference_phase": 6,
+      "hard_degree": 4,
+      "opposite_degree": 8
+    }
+  ],
+  "test_characteristics": [
+    0,
+    2,
+    3,
+    5,
+    7
+  ],
+  "terms_after_laurent_pole_cancellation": [
+    4,
+    4,
+    2,
+    4,
+    4
+  ],
+  "unpinned_private_factor_at_one_mod_p": {
+    "2": 0,
+    "3": 0,
+    "5": 1,
+    "7": 6
+  }
+}

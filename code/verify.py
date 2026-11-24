@@ -22,25 +22,53 @@ CHECKS=(
     ("stability/phases.py","PHASE_RESULTS.json"),
     ("gluing/run.py","RESULTS.json"),
     ("border/run.py","RESULTS.json"),
-    ("xp/run.py","RESULTS.json")
+    ("xp/run.py","RESULTS.json"),
+)
+PRIOR=(
+    ("Three_Actors_Proofs_and_Experiments.zip","22600b1fe9aafa484b895cc87c3fb2d4c059650be377a1fe84d698c62c12baa0",["--full","--jobs","2"]),
+    ("Weighted_Colorings_Proofs_and_Tests.zip","c75887e56a2618f144b583eba85ea35fea053a683f608e741a86a41f5fba4d25",[]),
 )
 
-def run_check(script, expected):
-    result = subprocess.run([sys.executable, str(ROOT / script)], capture_output=True, text=True, cwd=ROOT)
-    return script, result.returncode == 0, result.stdout[-200:] if result.stdout else ""
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--baseline", action="store_true")
-    args = parser.parse_args()
-    passed = 0
-    for script, expected in CHECKS:
-        name, ok, out = run_check(script, expected)
-        print(f"{'PASS' if ok else 'FAIL'}  {name}")
-        if ok:
-            passed += 1
-    print(f"\n{passed}/{len(CHECKS)} checks passed")
-    return 0 if passed == len(CHECKS) else 1
+def verify(item):
+    script,record=item
+    path=ROOT/script
+    output=subprocess.run([sys.executable,"-B",str(path)],cwd=path.parent,text=True,capture_output=True)
+    if output.returncode!=0:
+        raise RuntimeError(f"{script} failed\n{output.stderr}")
+    actual=json.loads(output.stdout)
+    expected=json.loads((path.parent/record).read_text())
+    if actual!=expected:
+        raise RuntimeError(f"{script} differed from {record}")
+    return script
 
-if __name__ == "__main__":
-    raise SystemExit(main())
+
+def replay_prior():
+    for name,digest,args in PRIOR:
+        archive=ROOT/'prior'/name
+        if hashlib.sha256(archive.read_bytes()).hexdigest()!=digest:
+            raise ValueError(f"Digest mismatch for {name}")
+        with tempfile.TemporaryDirectory() as tmp, ZipFile(archive) as bundle:
+            bundle.extractall(tmp)
+            entry=Path(tmp)/"verify.py"
+            if not entry.exists():
+                matching=[p for p in Path(tmp).rglob("verify.py") if p.parent.parent==Path(tmp)]
+                if len(matching)!=1:
+                    raise ValueError(f"No unique top-level runner in {name}")
+                entry=matching[0]
+            run=subprocess.run([sys.executable,"-B",str(entry),*args],cwd=entry.parent,
+                               capture_output=True,text=True)
+            if run.returncode:
+                raise RuntimeError(f"{name} failed\n{run.stderr}\n{run.stdout[-3000:]}")
+        print(f"PASS  {name}",flush=True)
+
+
+if __name__=="__main__":
+    cli=argparse.ArgumentParser(description=__doc__)
+    cli.add_argument("--prior",action="store_true",help="also extract and replay both earlier releases")
+    args=cli.parse_args()
+    with ThreadPoolExecutor(max_workers=3) as workers:
+        for name in workers.map(verify,CHECKS):
+            print(f"PASS  {name}",flush=True)
+    if args.prior:
+        replay_prior()

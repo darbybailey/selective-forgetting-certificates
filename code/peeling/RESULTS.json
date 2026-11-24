@@ -1,0 +1,91 @@
+{
+  "seven_source_status_patterns": 128,
+  "separate_36_point_source_readings": 14,
+  "relabelled_connected_extremizers": [
+    {
+      "points": 12,
+      "seed": 13,
+      "steps": 1,
+      "residual": 0,
+      "largest_overwrite": 11
+    },
+    {
+      "points": 12,
+      "seed": 101,
+      "steps": 1,
+      "residual": 0,
+      "largest_overwrite": 11
+    },
+    {
+      "points": 24,
+      "seed": 13,
+      "steps": 2,
+      "residual": 0,
+      "largest_overwrite": 13
+    },
+    {
+      "points": 24,
+      "seed": 101,
+      "steps": 2,
+      "residual": 0,
+      "largest_overwrite": 14
+    },
+    {
+      "points": 60,
+      "seed": 13,
+      "steps": 5,
+      "residual": 0,
+      "largest_overwrite": 13
+    },
+    {
+      "points": 60,
+      "seed": 101,
+      "steps": 5,
+      "residual": 0,
+      "largest_overwrite": 13
+    },
+    {
+      "points": 300,
+      "seed": 13,
+      "steps": 25,
+      "residual": 0,
+      "largest_overwrite": 14
+    },
+    {
+      "points": 300,
+      "seed": 101,
+      "steps": 26,
+      "residual": 0,
+      "largest_overwrite": 14
+    }
+  ],
+  "affine_plane_negative": {
+    "0": [
+      "OUTSIDE_YES_PROMISE",
+      12,
+      0
+    ],
+    "2": [
+      "UNSAT",
+      12,
+      0
+    ]
+  },
+  "brute_truth_checks": 96,
+  "positive_residual": {
+    "points": 33,
+    "flat_dimension_at_least": 12,
+    "promised_gap_at_most": 2,
+    "residual_triples": 44,
+    "status": "WITNESS"
+  },
+  "connected_mixture": {
+    "points": 69,
+    "flat_dimension_at_least": 27,
+    "promised_gap_at_most": 2,
+    "residual_triples": 44,
+    "overwrites": 3,
+    "status": "WITNESS"
+  },
+  "exhaustive_partial_assignment_crosschecks": 72
+}

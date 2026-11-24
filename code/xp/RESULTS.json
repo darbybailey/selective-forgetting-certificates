@@ -1,0 +1,20 @@
+{
+  "disconnected_36_points": {
+    "algorithm_found_witness": true,
+    "certified_product_dimension": 14
+  },
+  "empty_tile_partition": true,
+  "isolated_row_tile_partition": false,
+  "linked_24_points": {
+    "k_half": false,
+    "k_one": true,
+    "k_zero": false,
+    "maximum_dimension": 9
+  },
+  "nine_point_plane": {
+    "colorable": false,
+    "k_three_quarters": false,
+    "threshold": 3
+  },
+  "sixteen_degree_one_free_points": true
+}
