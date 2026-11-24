@@ -1,11 +1,43 @@
 cff-version: 1.2.0
+message: "If you use this work, please cite the Zenodo working paper in preferred-citation. The Residual Exclusion Problem remains open."
 title: "Selective Forgetting Certificates: Exact Recognition of Maximum Affine Flats in Linear Four-Matching Systems"
-message: "Working paper. The Residual Exclusion Problem remains open."
+version: "1.0"
+date-released: "2026-11-23"
+license: MIT
 authors:
   - family-names: McDonough
     given-names: Darby Bailey
     orcid: "https://orcid.org/0000-0003-4072-6191"
-    affiliation: "Digital Sidewalk Lab"
-date-released: 2026-11-23
-url: "https://github.com/darbybailey/selective-forgetting-certificates"
-license: MIT
+    affiliation: "Pip Projects, Inc. / Digital Sidewalk Lab"
+doi: "10.5281/zenodo.24490104"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24490103"
+    description: "Concept DOI that cites all versions of the record"
+repository-code: "https://github.com/darbybailey/selective-forgetting-certificates"
+url: "https://zenodo.org/records/24490104"
+commit: "1f5d5be2044f027cc0ca17d4d94ba71054211fbf"
+preferred-citation:
+  type: report
+  title: "Selective Forgetting Certificates: Exact Recognition of Maximum Affine Flats in Linear Four-Matching Systems"
+  authors:
+    - family-names: McDonough
+      given-names: Darby Bailey
+      orcid: "https://orcid.org/0000-0003-4072-6191"
+      affiliation: "Pip Projects, Inc. / Digital Sidewalk Lab"
+  year: 2026
+  month: 11
+  date-released: "2026-11-23"
+  version: "1.0"
+  doi: "10.5281/zenodo.24490104"
+  url: "https://doi.org/10.5281/zenodo.24490104"
+  repository-code: "https://github.com/darbybailey/selective-forgetting-certificates"
+  commit: "1f5d5be2044f027cc0ca17d4d94ba71054211fbf"
+  publisher:
+    name: Zenodo
+  license: CC-BY-4.0
+  identifiers:
+    - type: doi
+      value: "10.5281/zenodo.24490103"
+      description: "Concept DOI that cites all versions of the record"
+  notes: "Working paper. Paper and documentation are CC-BY-4.0. Companion code and the verification harness are MIT."
