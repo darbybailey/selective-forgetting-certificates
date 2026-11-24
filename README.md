@@ -43,6 +43,31 @@ The command reruns 12 suites and compares their output with the recorded JSON. R
 
 To inspect the regenerated counts for these cases, run `python3 code/recognition/run.py` and look for `sharp_flats_by_weighted_count` in the two named records. Each attains dimension exactly `5V/12`. [Recorded results](code/recognition/RESULTS.json) · [Recognition proof](code/overlap/RECOGNITION.md)
 
+## Citation
+
+Version 1.0 of the working paper is published on Zenodo: [https://zenodo.org/records/24490104](https://zenodo.org/records/24490104).
+
+- Version DOI (v1.0): [10.5281/zenodo.24490104](https://doi.org/10.5281/zenodo.24490104)
+- Concept DOI (all versions): [10.5281/zenodo.24490103](https://doi.org/10.5281/zenodo.24490103)
+
+Darby Bailey McDonough, Pip Projects, Inc. / Digital Sidewalk Lab. ORCID [0000-0003-4072-6191](https://orcid.org/0000-0003-4072-6191). Released 2026-11-23. The deposit cites commit `1f5d5be2044f027cc0ca17d4d94ba71054211fbf`.
+
+Paper and documentation are [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Companion code and the verification harness are [MIT](LICENSE). Machine-readable metadata is in [`CITATION.cff`](CITATION.cff).
+
+```bibtex
+@misc{mcdonough2026selective,
+  author       = {McDonough, Darby Bailey},
+  title        = {Selective Forgetting Certificates: Exact Recognition of Maximum Affine Flats in Linear Four-Matching Systems},
+  year         = {2026},
+  month        = nov,
+  publisher    = {Zenodo},
+  version      = {1.0},
+  doi          = {10.5281/zenodo.24490104},
+  url          = {https://doi.org/10.5281/zenodo.24490104},
+  note         = {Darby Bailey McDonough, ORCID: 0000-0003-4072-6191}
+}
+```
+
 ## Status
 
 Working paper. Independent review and priority checking remain open. P versus NP remains open.
